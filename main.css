@@ -20,7 +20,7 @@ body{background-color: #42A1BE;}
 .Heading1{grid-area: Heading1;
 text-align: center;
 background-color: #1B3E5D;
-}
+color: #FFFFFF;}
 
 
 .navbar{
@@ -31,6 +31,7 @@ background-color: #1B3E5D;
 .Heading2{
     grid-area: Heading2;
     background-color: #1B3E5D;
+color: #FFFFFF;
 }
 
 .video{grid-area: video;
@@ -38,19 +39,24 @@ background-color: #1B3E5D;
 }
 .Text1{grid-area: Text1;
     background-color: #1B3E5D;
-
+color: #FFFFFF;
 
 }
 
 .Text2{grid-area: Text2;
 background-color: #1B3E5D;
+color: #FFFFFF;
 }
 
 .photo1{grid-area: photo1;
 background-color: #1B3E5D;
+color: #FFFFFF;
 }
 
 .footer{grid-area: footer;
 background-color: #1B3E5D;
+text-align: center;
+color: #FFFFFF;
+
 }
 
