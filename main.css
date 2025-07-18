@@ -10,7 +10,7 @@ body{background-color: #42A1BE;}
     "Navbar Navbar"
     "Heading2 Heading2"
     "video Text1"
-    "Text2 photo1"
+    "photo1 Text2"
     "footer footer";
     
 }
@@ -19,27 +19,38 @@ body{background-color: #42A1BE;}
 
 .Heading1{grid-area: Heading1;
 text-align: center;
-
+background-color: #1B3E5D;
 }
 
 
 .navbar{
 grid-area: Navbar;
+background-color: #1B3E5D;
 }
 
 .Heading2{
     grid-area: Heading2;
+    background-color: #1B3E5D;
 }
 
 .video{grid-area: video;
+background-color: #1B3E5D;
+}
+.Text1{grid-area: Text1;
+    background-color: #1B3E5D;
+
+
 }
 
 .Text2{grid-area: Text2;
+background-color: #1B3E5D;
 }
 
 .photo1{grid-area: photo1;
+background-color: #1B3E5D;
 }
 
 .footer{grid-area: footer;
+background-color: #1B3E5D;
 }
 
