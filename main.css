@@ -23,9 +23,10 @@ background-color: #1B3E5D;
 color: #FFFFFF;}
 
 
-.navbar{
+.Navbar{
 grid-area: Navbar;
 background-color: #1B3E5D;
+list-style-type: none;
 }
 
 .Heading2{
@@ -36,6 +37,7 @@ color: #FFFFFF;
 
 .video{grid-area: video;
 background-color: #1B3E5D;
+
 }
 .Text1{grid-area: Text1;
     background-color: #1B3E5D;
