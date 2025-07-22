@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
 body{    background-color: #498D80;}
 
 
@@ -27,4 +29,7 @@ body{    background-color: #498D80;}
     float: left;
     height: 75px;
 }
-.logo{color: #F1F8F1;}
+.logo{color: #F1F8F1;
+padding-left: 20px;
+padding-top: 10px;
+font-size: xx-large;}
