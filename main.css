@@ -50,9 +50,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 .navbar li{
     list-style: none;
-    margin-left: 62px;
+    margin-left: 200px;
     margin-top: 27px;
     font-size: 14px;
+    
 }
 
 .navbar li a{
