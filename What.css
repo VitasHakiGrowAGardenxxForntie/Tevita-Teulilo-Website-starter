@@ -1,3 +1,8 @@
+
+
+body{
+    background-color: #486169;
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +10,6 @@
 
 .container{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Screenshot\ 2025-07-23\ 140502.png);
     background-size: cover;
     background-position: center;
     height: 109vh;
@@ -67,3 +71,13 @@ ul li a{
 ul li a:hover{
     color: rgb(61, 117, 223);
 }
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "heading1 heading"
+    "par1 vid1"
+    "par2 photo1";
+ }
