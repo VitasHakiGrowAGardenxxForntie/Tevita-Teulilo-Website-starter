@@ -26,13 +26,16 @@
 }
 
 .logo{
-    color: #ff7200;
+color: #fff;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
     float: left;
     padding-top: 10px;
     margin-top: 5px
+}
+.logo span{
+    color: rgb(61, 117, 223);
 }
 
 .navbar{
@@ -64,7 +67,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: #ff7200;
+    color: rgb(61, 117, 223);
 }
 
 .content{
@@ -93,6 +96,6 @@ ul li a:hover{
 }
 
 .content span{
-    color: #ff7200;
+    color: rgb(61, 117, 223);
     font-size: 60px;
 }
