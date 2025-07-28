@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
 
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Screenshot\ 2025-07-23\ 140502.png);
+    background-size: cover;
+    background-position: center;
+}
 *{
     margin: 0;
     padding: 0;
 }
 
-.container{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(Screenshot\ 2025-07-23\ 140502.png);
-    background-size: cover;
-    background-position: center;
-    height: 109vh;
-}
 
 .menu{
     width: 1200px;

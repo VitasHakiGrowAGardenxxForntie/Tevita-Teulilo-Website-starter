@@ -12,7 +12,6 @@ body{
     width: 100%;
     background-size: cover;
     background-position: center;
-    height: 109vh;
 }
 
 .menu{
@@ -77,7 +76,19 @@ ul li a:hover{
     grid-template-columns: 1fr, 2fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "heading1 heading"
+    "heading1 heading1"
     "par1 vid1"
-    "par2 photo1";
+    "par2 photo1"
+    "footer footer";
+ }
+
+ .heading1{
+    grid-area: heading1;
+    color: #fff;
+    text-align: center;
+ }
+
+ .par1{
+    grid-area: par1;
+    color: #FFFF;
  }
