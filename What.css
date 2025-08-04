@@ -53,6 +53,15 @@ body {
     list-style: none;
 }
 
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo li {
+    list-style: none;
+}
+
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
