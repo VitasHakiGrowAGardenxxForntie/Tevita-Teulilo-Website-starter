@@ -1,4 +1,5 @@
 body {
+
     width: 100%;
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -6,6 +7,7 @@ body {
                 url("Screenshot 2025-07-23 140502.png") no-repeat center center fixed;
     background-size: cover;
     color: #f0f0f0;
+    height: 1000px;
 }
 
 * {
@@ -19,6 +21,84 @@ body {
     max-width: 1200px;
     margin: auto;
 }
+/* Making my website responsive */
+@media (max-width: 1024px) {
+    .content h1 {
+        font-size: 45px;
+    }
+
+    .content h1 span {
+        font-size: 55px;
+    }
+
+    .content .par {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .navbar ul {
+        gap: 20px;
+    }
+}
+
+/* Making it responsive for phones */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .content {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 35px;
+        line-height: 1.3;
+    }
+
+    .content h1 span {
+        font-size: 42px;
+    }
+
+    .content .par {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+/* Making it responsive for Small phones */
+@media (max-width: 480px) {
+    .icon .logo {
+        font-size: 28px;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .content h1 span {
+        font-size: 34px;
+    }
+
+    .content .par {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .navbar ul li a {
+        font-size: 14px;
+    }
+}
+
 
 .menu {
     display: flex;
