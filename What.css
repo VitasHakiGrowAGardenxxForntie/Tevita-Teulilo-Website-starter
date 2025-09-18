@@ -18,7 +18,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
+
 
 /* Tablet screens  */
 @media (max-width: 1024px) {
